@@ -53,7 +53,7 @@ public class Organisation extends ims.domain.DomainObject implements ims.domain.
 	/** OrganisationName */
 	private String name;
 	/** Organisation Address */
-	private ims.core.generic.domain.objects.Address address;
+	//private ims.core.generic.domain.objects.Address address;
 	/** Organisation Type - SHA, NHS Trust, PCT, GP Practice, Health Boards, Indpendent Hospitals */
 	private ims.domain.lookups.LookupInstance type;
 	private Boolean isActive;
