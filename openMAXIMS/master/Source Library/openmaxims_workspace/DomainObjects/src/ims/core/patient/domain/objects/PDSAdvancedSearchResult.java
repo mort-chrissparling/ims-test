@@ -50,6 +50,7 @@ public class PDSAdvancedSearchResult extends ims.domain.DomainObject implements 
 		return true;
 	}
 
+	private String patientName;
 	private String email;
 	/** NHSNumber */
 	private String nHSNumber;
