@@ -50,16 +50,17 @@ public class PDSAdvancedSearchResult extends ims.domain.DomainObject implements 
 		return true;
 	}
 
-	private String patientName;
-	private String email;
-	/** NHSNumber */
-	private String nHSNumber;
-	/** Surname */
-	private String surname;
-	/** Upper Surname */
-	private String upperSurname;
-	/** Forename */
-	private String forename;
+	// private String patientName;
+	// private String email;
+	// /** NHSNumber */
+	// private String nHSNumber;
+	// /** Surname */
+	// private String surname;
+	// /** Upper Surname */
+	// private String upperSurname;
+	// /** Forename */
+	// private String forename;
+	
 	/** Upper Forename */
 	private String upperForename;
 	/** Preferred Name */
