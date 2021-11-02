@@ -56,9 +56,9 @@ public class Organisation extends ims.domain.DomainObject implements ims.domain.
 	private ims.core.generic.domain.objects.Address address;
 	/** Organisation Type - SHA, NHS Trust, PCT, GP Practice, Health Boards, Indpendent Hospitals */
 	private ims.domain.lookups.LookupInstance type;
-	//private Boolean isActive;
+	private Boolean isActive;
 	/** Comment about the organisation */
-	//private String comment;
+	private String comment;
 	/** 
 	  * Collection of ims.core.resource.place.domain.objects.LocSite.
 	  */
@@ -72,10 +72,10 @@ public class Organisation extends ims.domain.DomainObject implements ims.domain.
 	  * Collection of ims.core.clinical.domain.objects.TaxonomyMap.
 	  */
 	private java.util.List codeMappings;
-	// /** upper cased and indexed, used for searches only */
-	// private String upperName;
-	// /** PCT Code */
-	// private String pctCode;
+	/** upper cased and indexed, used for searches only */
+	private String upperName;
+	/** PCT Code */
+	private String pctCode;
 	/** Communication Channels
 	  * Collection of ims.core.generic.domain.objects.CommunicationChannel.
 	  */
