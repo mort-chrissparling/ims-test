@@ -57,15 +57,15 @@ public class PDSBatchTraceParams extends ims.domain.DomainObject implements ims.
 	// /** Forename */
 	// private String forename;
 	/** Full Date of Birth */
-	private java.util.Date dateOfBirth;
-	/** Gender */
-	private ims.domain.lookups.LookupInstance gender;
-	/** Date of Death or Date of Death range From */
-	private java.util.Date dateOfDeathFrom;
-	/** Death range To */
-	private java.util.Date dateOfDeathTo;
-	/** Post Code */
-	private String postCode;
+	// private java.util.Date dateOfBirth;
+	// /** Gender */
+	// private ims.domain.lookups.LookupInstance gender;
+	// /** Date of Death or Date of Death range From */
+	// private java.util.Date dateOfDeathFrom;
+	// /** Death range To */
+	// private java.util.Date dateOfDeathTo;
+	// /** Post Code */
+	// private String postCode;
 	/** PAF Key  */
 	private String pafKey;
 	/** Address Lines */
