@@ -72,10 +72,10 @@ public class Organisation extends ims.domain.DomainObject implements ims.domain.
 	  * Collection of ims.core.clinical.domain.objects.TaxonomyMap.
 	  */
 	private java.util.List codeMappings;
-	/** upper cased and indexed, used for searches only */
-	private String upperName;
-	/** PCT Code */
-	private String pctCode;
+	// /** upper cased and indexed, used for searches only */
+	// private String upperName;
+	// /** PCT Code */
+	// private String pctCode;
 	/** Communication Channels
 	  * Collection of ims.core.generic.domain.objects.CommunicationChannel.
 	  */
