@@ -50,12 +50,12 @@ public class PDSBatchTraceParams extends ims.domain.DomainObject implements ims.
 		return true;
 	}
 
-	// /** New Style NHS NUmber */
-	// private String nHSNumber;
-	// /** Surname */
-	// private String surname;
-	// /** Forename */
-	// private String forename;
+	/** New Style NHS NUmber */
+	private String nHSNumber;
+	/** Surname */
+	private String surname;
+	/** Forename */
+	private String forename;
 	/** Full Date of Birth */
 	private java.util.Date dateOfBirth;
 	/** Gender */
