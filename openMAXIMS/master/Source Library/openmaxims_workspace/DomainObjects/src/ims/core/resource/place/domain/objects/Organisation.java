@@ -50,29 +50,29 @@ public class Organisation extends ims.domain.DomainObject implements ims.domain.
 		return false;
 	}
 
-	// /** OrganisationName */
-	// private String name;
-	// /** Organisation Address */
-	// private ims.core.generic.domain.objects.Address address;
-	// /** Organisation Type - SHA, NHS Trust, PCT, GP Practice, Health Boards, Indpendent Hospitals */
-	// private ims.domain.lookups.LookupInstance type;
-	// private Boolean isActive;
-	// /** Comment about the organisation */
-	// private String comment;
+	/** OrganisationName */
+	private String name;
+	/** Organisation Address */
+	private ims.core.generic.domain.objects.Address address;
+	/** Organisation Type - SHA, NHS Trust, PCT, GP Practice, Health Boards, Indpendent Hospitals */
+	private ims.domain.lookups.LookupInstance type;
+	private Boolean isActive;
+	/** Comment about the organisation */
+	private String comment;
 	/** 
 	  * Collection of ims.core.resource.place.domain.objects.LocSite.
 	  */
-	// private java.util.Set locationSites;
-	// /** 
-	//   * Collection of ims.core.resource.place.domain.objects.Organisation.
-	//   */
-	// private java.util.Set relatedOrganisations;
-	// private ims.core.resource.place.domain.objects.Organisation parentOrganisation;
-	// /** 
-	//   * Collection of ims.core.clinical.domain.objects.TaxonomyMap.
-	//   */
-	// private java.util.List codeMappings;
-	// /** upper cased and indexed, used for searches only */
+	private java.util.Set locationSites;
+	/** 
+	  * Collection of ims.core.resource.place.domain.objects.Organisation.
+	  */
+	private java.util.Set relatedOrganisations;
+	private ims.core.resource.place.domain.objects.Organisation parentOrganisation;
+	/** 
+	  * Collection of ims.core.clinical.domain.objects.TaxonomyMap.
+	  */
+	private java.util.List codeMappings;
+	/** upper cased and indexed, used for searches only */
 	private String upperName;
 	/** PCT Code */
 	private String pctCode;
