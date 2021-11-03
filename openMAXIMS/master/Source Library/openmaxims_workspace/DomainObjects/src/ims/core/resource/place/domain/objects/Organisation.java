@@ -62,17 +62,17 @@ public class Organisation extends ims.domain.DomainObject implements ims.domain.
 	/** 
 	  * Collection of ims.core.resource.place.domain.objects.LocSite.
 	  */
-	private java.util.Set locationSites;
-	/** 
-	  * Collection of ims.core.resource.place.domain.objects.Organisation.
-	  */
-	private java.util.Set relatedOrganisations;
-	private ims.core.resource.place.domain.objects.Organisation parentOrganisation;
-	/** 
-	  * Collection of ims.core.clinical.domain.objects.TaxonomyMap.
-	  */
-	private java.util.List codeMappings;
-	/** upper cased and indexed, used for searches only */
+	// private java.util.Set locationSites;
+	// /** 
+	//   * Collection of ims.core.resource.place.domain.objects.Organisation.
+	//   */
+	// private java.util.Set relatedOrganisations;
+	// private ims.core.resource.place.domain.objects.Organisation parentOrganisation;
+	// /** 
+	//   * Collection of ims.core.clinical.domain.objects.TaxonomyMap.
+	//   */
+	// private java.util.List codeMappings;
+	// /** upper cased and indexed, used for searches only */
 	private String upperName;
 	/** PCT Code */
 	private String pctCode;
